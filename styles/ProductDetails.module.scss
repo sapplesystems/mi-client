@@ -1,0 +1,318 @@
+.wrapper {
+  background: #f4f4f4;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //   padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+.nav_container {
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+}
+
+.productDetails {
+  margin-left: 8rem;
+}
+
+.img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 360px;
+  margin-top: 40px;
+}
+
+.img_1 {
+  width: 140px;
+}
+
+.container {
+  background: #fcfcfc;
+  padding: 24px;
+  width: 946px;
+
+  box-shadow: 0px 0px 14px -4px rgba(0, 0, 0, 0.05), 0px 32px 48px -8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+}
+
+.org_logo {
+  background: #fff;
+  padding: 3px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+
+  div {
+    border: 1px solid #334069;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  span {
+    width: 16px;
+    height: 32px;
+    background: #7496eb;
+    border-radius: 4px;
+    margin-right: 16px;
+  }
+
+  p {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #1a1d1f;
+  }
+}
+
+.cert__header {
+  font-size: 16px;
+}
+
+.content__container {
+  padding: 24px;
+  font-family: "Inter";
+
+  display: flex;
+}
+
+.content__left {
+  flex: 1;
+  padding: 24px;
+
+  background: rgba(244, 244, 244, 0.5);
+  border-radius: 12px;
+
+  h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #1a1d1f;
+    margin-bottom: 32px;
+  }
+}
+
+.content__right {
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 600;
+  font-size: 15px;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -12px;
+  }
+
+  label {
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #6f767e;
+    min-width: max-content;
+  }
+
+  p {
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #1a1d1f;
+    width: 230px;
+  }
+}
+
+.heading h6 {
+  font-size: 24px;
+  width: 110px;
+  text-align: center;
+  margin: 0;
+  font-weight: 800;
+}
+
+.heading p {
+  font-size: 8px;
+  font-weight: 900;
+}
+
+.content__right {
+  padding-left: 125px;
+  padding-top: 12px;
+
+  h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #1a1d1f;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+
+    svg {
+      color: #83bf6e;
+      margin-right: 10px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 24px;
+
+      letter-spacing: -0.015em;
+      color: #33383f;
+    }
+  }
+
+  h6 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #6f767e;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}
+
+.textArea__container {
+  position: relative;
+  button {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .cert__header {
+    font-size: 12px;
+  }
+  .wrapper {
+    padding: 0;
+  }
+
+  .header {
+    margin-left: 30px;
+  }
+
+  .content__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 750px) {
+  .img_1 {
+    width: 100px;
+  }
+
+  .img_2 {
+    width: 120px;
+  }
+
+  .heading h6 {
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  .heading p {
+    font-size: 8px;
+    margin-top: 2px;
+  }
+
+  .img {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .cert__header {
+    font-size: 12px;
+  }
+  .container {
+    padding: 24px 0px;
+  }
+  .content__left {
+    h3 {
+      font-size: 17px;
+    }
+  }
+
+  .row {
+    font-size: 14px;
+  }
+
+  .content__right {
+    padding-left: 45px;
+    h3 {
+      font-size: 17px;
+    }
+
+    span {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .nav_container {
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .img_1 {
+    width: 80px;
+  }
+
+  .img_2 {
+    width: 100px;
+  }
+
+  .heading h6 {
+    font-size: 16px;
+    line-height: 14px;
+  }
+
+  .heading p {
+    font-size: 8px;
+    margin-top: 2px;
+  }
+
+  .img {
+    margin-top: -4px;
+  }
+
+  .productDetails {
+    margin-left: 3rem;
+  }
+
+  .org_logo {
+    margin-left: -22px;
+  }
+}

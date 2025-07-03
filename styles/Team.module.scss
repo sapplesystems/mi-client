@@ -1,0 +1,294 @@
+.main__container {
+}
+
+.overview__container {
+  padding: 24px;
+  width: 100%;
+  background: #fcfcfc;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.overview__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overview__heading {
+  display: flex;
+  align-items: center;
+
+  span {
+    width: 16px;
+    height: 32px;
+    background: #cabdff;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+
+  h4 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #1a1d1f;
+    margin: 0;
+  }
+}
+
+.select {
+  margin-left: 15px;
+  background: transparent;
+  span {
+    font-weight: 900;
+    font-size: 12px;
+
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #6f767e;
+  }
+
+  svg {
+    font-size: 12px;
+    font-weight: 900;
+    color: #6f767e;
+    margin-top: 1px;
+  }
+}
+
+.card__container {
+  margin-top: 30px;
+  display: flex;
+}
+
+.overview__card {
+  width: 326.67px;
+  height: 224px;
+  padding: 30px;
+  background: rgba(181, 228, 202, 0.25);
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 12px;
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &:nth-child(1) {
+    background: rgba(181, 228, 202, 0.25);
+  }
+  &:nth-child(2) {
+    background: rgba(177, 229, 252, 0.25);
+  }
+  &:nth-child(3) {
+    background: rgba(202, 189, 255, 0.25);
+  }
+
+  p {
+    font-family: "Inter";
+    font-style: normal;
+
+    &:nth-child(2) {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: -0.01em;
+      color: #1a1d1f;
+    }
+
+    &:nth-child(3) {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 48px;
+      letter-spacing: -0.03em;
+      color: #1a1d1f;
+    }
+  }
+
+  span {
+    &:last-child {
+      padding: 6px;
+      background: #fcfcfc;
+      border-radius: 4px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: -0.01em;
+      color: #83bf6e;
+      width: max-content;
+    }
+  }
+}
+
+.card__icon {
+  background: #1a1d1f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 15px;
+  margin-bottom: 10px;
+
+  svg {
+    background: #fcfcfc;
+  }
+}
+
+.application__container {
+  padding: 24px;
+  width: 100%;
+  background: #fcfcfc;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.application__header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.input__gray {
+  margin-right: 60px;
+  width: 250px;
+  background: #f4f4f4;
+  font-weight: 900;
+  border: none;
+  height: 40px;
+  input {
+    margin-left: 5px;
+    font-weight: 600;
+    background: transparent;
+  }
+}
+
+.segment {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
+
+.infoText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #9a9fa5;
+  margin-bottom: 16px;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  button {
+    padding: 12px 20px;
+    width: 181px;
+    height: 48px;
+    background: #2a85ff;
+    border-radius: 12px;
+  }
+}
+
+.col_value {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #1a1d1f;
+}
+
+.col_subvalue {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: #9a9fa5;
+  text-transform: capitalize;
+}
+
+.approved {
+  text-align: center;
+  text-transform: capitalize;
+
+  background: #dff5f6;
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+
+  letter-spacing: -0.01em;
+  color: #6bbdb7;
+}
+
+.submitted {
+  text-align: center;
+  text-transform: capitalize;
+
+  background: #eafae4;
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+
+  letter-spacing: -0.01em;
+  color: #83bf6e;
+}
+
+.draft {
+  text-align: center;
+  text-transform: capitalize;
+
+  background: #ffeed1;
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+
+  letter-spacing: -0.01em;
+  color: #f2994a;
+}
+
+.rejected {
+  text-align: center;
+  text-transform: capitalize;
+
+  background: #ffe7e4;
+  border-radius: 4px;
+
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+
+  letter-spacing: -0.01em;
+  color: #ff6a55;
+}
+
+.table_row_styles {
+  cursor: pointer;
+}

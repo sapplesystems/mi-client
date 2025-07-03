@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Poppins&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+}
+
+.btn__orange {
+  cursor: pointer;
+  background: #ff9314;
+  border-radius: 8px;
+  width: 195px;
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+
+  @media (max-width: 1050px) {
+    width: 185px;
+    height: 46px;
+  }
+
+  @media (max-width: 650px) {
+    padding: 0 20px;
+    font-size: 14px;
+    width: 140px;
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    width: 140px;
+  }
+}
+
+.ant-segmented-item {
+  margin: 0 6px;
+}
+
+// .ant-select {
+//   background-color: #f4f4f4;
+//   border-radius: 12px;
+//   height: 38.5px;
+// }
+
+.ant-upload-list {
+  flex-wrap: wrap;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ant-float-btn-body {
+  background-color: #ff9314 !important;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.ant-popover-content {
+  max-width: 400px;
+}
+
+.modalStyles .ant-modal-content {
+  padding: 0;
+}
+.modalStyles .ant-modal-header {
+  padding: 0 20px;
+  padding-top: 16px;
+}
+
+.select {
+  width: 90%;
+  max-height: 40px !important;
+
+  span {
+    min-height: 35px;
+    margin-top: 3px;
+  }
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+  }
+}
