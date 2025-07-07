@@ -147,8 +147,7 @@ const Signin = () => {
               setIsVerified(false);
             }}
           />
-          {/* loginDisabled */}
-          <Button type="primary" disabled={false} onClick={handleLogin}>
+          <Button type="primary" disabled={loginDisabled} onClick={handleLogin}>
             Login
           </Button>
           <p>This site is protected by reCAPTCHA and the Google Privacy Policy.</p>
